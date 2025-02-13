@@ -360,14 +360,34 @@ body {
 
 /* 형광펜 */
 
-.mark{
+.mark1{
     background:linear-gradient(to right, rgba(255,255,255,0) 50%, #ff6600 );
     background-size:200%;
     transition:.35s;
 }
-.text:hover .mark{
+.text:hover .mark1{
     background-position:-100% 0;
 }
+
+.mark2{
+    background:linear-gradient(to right, rgba(255,255,255,0) 50%, #e2a52e );
+    background-size:200%;
+    transition:.35s;
+}
+.text:hover .mark2{
+    background-position:-100% 0;
+}
+
+
+.mark3{
+    background:linear-gradient(to right, rgba(255,255,255,0) 50%, #b80909 );
+    background-size:200%;
+    transition:.35s;
+}
+.text:hover .mark3{
+    background-position:-100% 0;
+}
+
 
 
 /* 형광펜 */

@@ -17,5 +17,6 @@ $(function () {
   });
 
   AOS.init({
-    duration: 1000 //aos 나타나는 속도
+    duration: 1000, //aos 나타나는 속도
+    once: true
  } );
